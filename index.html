@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Captcha Code Generator</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <center>
+      <h1>Captcha Code Generator and Validator</h1>
+      <div class="container">
+        <form action="#" name="form1">
+          <input type="text" id="captchaTxtArea" name="text1" value=""/><br />
+          <input type="text" id="captchaEnter" placeholder="Enter Captcha" /><br />
+          <input type="button" value="REFRESH" id="refreshbtn" onclick="generateNewCaptcha()" />
+          <input type="button" value="CHECK" id="checkbtn" onclick="checkCaptcha()" />
+        </form>
+      </div>
+    </center>
+    <script type="text/javascript" src="js/app.js" defer></script>
+  </body>
+</html>
